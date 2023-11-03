@@ -62,53 +62,7 @@ public class Ejercicio1 extends JFrame implements ActionListener {
 		contentPane.add(btnOcultarCiudad);
 	}
 
-//	@Override
-//	public void mouseClicked(MouseEvent e) {
-//		if (e.getSource()==btnVisuNombre) {
-//			etiNombre.setVisible(true);
-//		} else if (e.getSource()==btnOcultarNombre) {
-//			etiNombre.setVisible(false);
-//		} else if (e.getSource()==btnVisuCiudad) {
-//			etiCiudad.setVisible(true);
-//		} else if (e.getSource()==btnOcultarCiudad) {
-//			etiCiudad.setVisible(false);
-//		}
-//		
-//	}
-//
-//	@Override
-//	public void mousePressed(MouseEvent e) {
-//		if (e.getSource()==btnVisuNombre) {
-//			etiNombre.setVisible(true);
-//		} else if (e.getSource()==btnOcultarNombre) {
-//			etiNombre.setVisible(false);
-//		} else if (e.getSource()==btnVisuCiudad) {
-//			etiCiudad.setVisible(true);
-//		} else if (e.getSource()==btnOcultarCiudad) {
-//			etiCiudad.setVisible(false);
-//		}
-//		
-//	}
-//
-//	@Override
-//	public void mouseReleased(MouseEvent e) {
-//		// TODO Auto-generated method stub
-//		
-//	}
-//
-//	@Override
-//	public void mouseEntered(MouseEvent e) {
-//		// TODO Auto-generated method stub
-//		
-//	}
-//
-//	@Override
-//	public void mouseExited(MouseEvent e) {
-//		// TODO Auto-generated method stub
-//		
-//	}
 
-	@Override
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource()==btnVisuNombre) {
 			etiNombre.setVisible(true);
